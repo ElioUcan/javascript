@@ -9,5 +9,5 @@ if (isNaN(num)) {
     console.log('C is fun');
   }
 } else {
-
+// pass
 }
