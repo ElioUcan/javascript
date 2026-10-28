@@ -3,7 +3,7 @@
 const args = process.argv.length - 2;
 
 
-if (process.argv.length == 0) {
+if (process.argv.length === 0) {
   console.log('No Argument');
 } else if (process.argv.length < 2) {
   console.log('Argument found');
