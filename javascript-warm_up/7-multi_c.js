@@ -5,7 +5,7 @@ let num = Number(process.argv[2]);
 if (isNaN(num)) {
   console.log('Missing number of occurrences');
 } else {
-  for (num; num !== 0; i--) {
+  for (num; num !== 0; num--) {
     console.log('C is fun');
   }
 }
