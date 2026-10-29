@@ -7,7 +7,7 @@ function factorial (arg1) {
   } else if (arg1 >= 90) {
     console.log('Infinity');
   } else {
-    for (let i = 0; i <= arg1; i++) {
+    for (let i = 2; i <= arg1; i++) {
       f *= i;
     }
     console.log(f);
